@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    #login{
+        width: 90vw;
+    }
+
+    #imagem{
+       background: url(../imagens/imagem02.jpg);
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario{
+        
+        width: 70%;
+    }
+
+    .container{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    #login{
+        width: 950px;
+
+    }
+
+    #imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        
+    }
+
+    #formulario{
+        float: right;
+        width: 50%;
+    }
+
+
+}
+
