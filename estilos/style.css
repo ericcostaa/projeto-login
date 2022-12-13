@@ -42,21 +42,21 @@ main{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.458);
 
-    transition: width 0.3s, heght 0.3s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
-#imagem{
+.child1{
 
     background: #8242FA url(../imagens/imagem01.jpg);
     height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left bottom;
-    display: block;
+    background-position: left center;
+    
 }
 
-#formulario{
-    display: block;
+.child2{
+    
     padding: 10px;
 }
