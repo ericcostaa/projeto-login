@@ -64,7 +64,7 @@ main{
     padding: 10px;
 }
 
-@media screen and (orientation: landscape) and (max-width: 768px){
+@media screen and (orientation: landscape){
 
     #login{
         width: 90vw;
