@@ -9,6 +9,8 @@
     body{
         background: linear-gradient(to top,  #8242FA , #3469FA);
     }
+
+   
     
     #login{
         width: 90vw;
@@ -51,9 +53,15 @@
     body{
         background: linear-gradient(to top,  #8242FA , #3469FA);
     }
-    
+
+    h1{
+
+        font-size: 2em;
+    }
+        
     #login{
         width: 950px;
+
         transition: width 0.3s, height 0.3s;
         transition-timing-function: ease;
 

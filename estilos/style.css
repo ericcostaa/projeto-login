@@ -34,6 +34,66 @@ main{
     
 }
 
+ h1{
+
+    text-align: center;
+    margin-bottom: 10px ;
+
+}
+
+input{
+
+    padding: 3px;
+    margin: 5px;
+   
+}
+
+span{
+
+    margin: 5px;
+}
+
+label{
+    display: none;
+}
+
+input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #3469FA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+input[type=submit]:hover{
+    background-color: #17185f;
+    cursor: pointer;
+}
+
+input[type=button]{
+    display: flex;
+    align-content: space-between;
+    border: none;
+    border-bottom: none;
+    box-shadow: none;
+    text-decoration: none;
+    margin-top: 5px;  
+    padding-left: 5px;   
+    
+        
+}
+
+input[type=button]:hover{
+
+    cursor: pointer;
+    position: relative;
+    
+}
 
 
 #login{
@@ -49,6 +109,47 @@ main{
     transition-timing-function: ease;
 }
 
+.container2{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    align-content: flex-end;
+
+
+}
+
+.childc2{
+
+    background-color: #8242FA;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    height: 35px;
+    width: 93px;
+    
+}
+
+.childc2:hover{
+
+    background-color: #50289a;
+    color: white;
+    
+}
+
+.childc1{
+
+    order: 1;
+}
+
+.childc1:hover{
+
+    color: #3469FA;
+}
+    
+
+
 .child1{
 
     background: #8242FA url(../imagens/imagem01.jpg);
@@ -62,6 +163,18 @@ main{
 .child2{
     
     padding: 10px;
+}
+
+.campo{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    
 }
 
 @media screen and (orientation: landscape){
