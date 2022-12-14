@@ -15,6 +15,11 @@ AZUL:  #3469FA
     box-sizing: border-box;
 }
 
+a{
+
+    text-decoration: none;
+}
+
 body , html{
 
     background-color: #8242FA;

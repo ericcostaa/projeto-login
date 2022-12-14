@@ -7,7 +7,3 @@ function entrar(){
 
 
 }
-
-function criarConta(){
-    
-}

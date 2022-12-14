@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="casastro/style.css">
+    <link rel="shortcut icon" href="imagens/icon.ico" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+<body>
+   <main>
+
+    
+
+    <section class="container">
+
+        <h1>Cadastro</h1>
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+
+            <div class="child1">
+                <label for="inome"> Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Primeiro nome" required>
+            </div>
+            <div class="child2">
+                <label for="isobre">Sobrenome:</label>
+                <input type="text" name="sobrenome" placeholder="Último nome" id="isobre" required>
+            </div>
+            <div class="child3">
+                <label for="idata">Data de nascimento:</label>
+                <input type="date" name="data" id="idata" required>
+            </div>
+            <div class="child4">
+                <label for="isexo">Sexo:</label>
+                <input type="radio" name="sex" id="isexo" checked> Masculino
+                <input type="radio" name="sex" id="isexo"> Feminino
+            </div>
+            <div class="child5">
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="telefone" id="itel" required minlength="12" placeholder="(xx) xxxx-xxxx">
+            </div>
+            <div class="child6">
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required>
+            </div>
+            <div class="child6">
+                <label for="isen">Senha:</label>
+                <input type="password" name="senha" id="isen" required minlength="8">
+            </div>
+            <div class="child7">
+                <label for="iconfirme">Confirmação da senha: </label>
+                <input type="password" name="confirm" id="iconfirme" required>
+                   </div>
+
+                   <button type="submit" class="child8" id="botao" onclick="cadastrar()"> Cadastrar</button>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+   </main>
+
+   <script src="cadastro.js"></script>
+</body>
+</html>
