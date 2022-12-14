@@ -26,6 +26,7 @@ h1{
     text-align: center;
     margin-bottom: 10px ;
     color: black;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.411);
 
 }
 
@@ -43,6 +44,7 @@ body{
     height: 550px;
     width: 350px;
     justify-content: flex-start;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.357);
 }
 
 #botao{
@@ -86,5 +88,61 @@ div{
     margin-bottom: 5px;
 }
 
+@media screen and (orientation: landscape) and (max-width: 800px) {
 
 
+
+    body, html{
+
+        background-color: rgb(164, 106, 106);
+    }
+
+    .container{
+        display: flex;
+        width: 100vw;
+    }
+    .col1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        
+    }
+
+    .col2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+      
+
+    }
+
+    .col3{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+
+    .col4{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+
+    .child4{
+        flex-direction: row;
+        margin-right: 5px;
+        order: -1;
+
+
+
+
+}
+label#dat{
+    display: none;
+}
+
+}
