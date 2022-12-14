@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px) and (max-width: 992px) {
+
+
+    *{font-size: 1em;
+    }
+
+    h1{
+        font-size: 1.7em;
+    }
+
+    body{
+
+        background: url(imagem/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+    .container{
+
+        width: 500px;
+        height: 600px;
+    }
+
+    #botao{
+
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px){
+
+    *{
+        font-size: 20px;
+}
+
+body{
+
+    background: url(imagem/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 2em;
+}
+
+#botao{
+
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.container{
+
+    width: 800px;
+    height: 720px;
+}
+
+}
